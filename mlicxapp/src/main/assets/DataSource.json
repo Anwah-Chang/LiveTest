@@ -1,0 +1,129 @@
+{
+  "album": [
+    {
+      "albumId": "1" ,
+      "name": "直播间一哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img1.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "playNum": "726.5万",
+      "list": [
+        {
+          "musicId": "101",
+          "name": "直播间一",
+          "poster": "http://106.15.226.123:8080/photos/img1.jpg",
+          "path": "http://106.15.226.123:8080/videos/a.mp4",
+          "author": "主播一"
+        }
+      ]
+    },
+    {
+      "albumId": "2" ,
+      "name": "直播间二哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img2.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "playNum": "111万",
+      "list": [
+        {
+          "musicId": "101",
+          "name": "直播间一",
+          "poster": "http://106.15.226.123:8080/photos/img1.jpg",
+          "path": "http://106.15.226.123:8080/videos/a.mp4",
+          "author": "主播一"
+        }
+      ]
+    },
+    {
+      "albumId": "3" ,
+      "name": "直播间三哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img7.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "playNum": "23.5万",
+      "list": [
+        {
+          "musicId": "101",
+          "name": "直播间一",
+          "poster": "http://106.15.226.123:8080/photos/img1.jpg",
+          "path": "http://106.15.226.123:8080/videos/a.mp4",
+          "author": "主播一"
+        }
+      ]
+    },
+    {
+      "albumId": "4" ,
+      "name": "直播间四哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img8.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "playNum": "99万",
+      "list": [
+        {
+          "musicId": "101",
+          "name": "直播间一",
+          "poster": "http://106.15.226.123:8080/photos/img1.jpg",
+          "path": "http://106.15.226.123:8080/videos/a.mp4",
+          "author": "主播一"
+        }
+      ]
+    },
+    {
+      "albumId": "5" ,
+      "name": "直播间五哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img9.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "playNum": "88.1万",
+      "list": [
+        {
+          "musicId": "101",
+          "name": "直播间一",
+          "poster": "http://106.15.226.123:8080/photos/img1.jpg",
+          "path": "http://106.15.226.123:8080/videos/a.mp4",
+          "author": "主播一"
+        }
+      ]
+    },
+    {
+      "albumId": "6" ,
+      "name": "直播间六哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/timg1.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "playNum": "35.9万",
+      "list": [
+        {
+          "musicId": "101",
+          "name": "直播间一",
+          "poster": "http://106.15.226.123:8080/photos/img7.jpg",
+          "path": "http://106.15.226.123:8080/videos/a.mp4",
+          "author": "主播一"
+        }
+      ]
+    }
+  ],
+  "hot": [
+    {
+      "musicId": "7",
+      "name": "直播间一哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img1.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "author": "主播一"
+    },
+    {
+      "musicId": "8",
+      "name": "直播间二哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img7.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "author": "主播二"
+    },
+    {
+      "musicId": "9",
+      "name": "直播间三哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img8.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "author": "主播三"
+    },{
+      "musicId": "10",
+      "name": "直播间四哈哈哈",
+      "poster": "http://106.15.226.123:8080/photos/img9.jpg",
+      "path": "http://106.15.226.123:8080/videos/a.mp4",
+      "author": "主播四"
+    }
+  ]
+}

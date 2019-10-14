@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LiveTest</string>
+    <string name="push_stream_btn">直播（采集编码、rtmp推流）</string>
+    <string name="play_stream_btn">观看直播（播放rtmp流）</string>
+    <string name="btn_publish">开始</string>
+    <string name="btn_swCam">摄像头</string>
+    <string name="btn_swEnc">软编码</string>
+    <string name="tv_player">这是播放器</string>
+</resources>

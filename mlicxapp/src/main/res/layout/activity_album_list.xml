@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.AlbumListActivity">
+
+    <include layout="@layout/nav_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/activity_live"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <VideoView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#de262a3b">
+
+            <ProgressBar
+                android:id="@+id/pb_loading"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:indeterminate="false"
+                android:indeterminateDrawable="@drawable/video_loading"/>
+
+            <TextView
+                android:id="@+id/tv_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pb_loading"
+                android:layout_centerHorizontal="true"
+                android:text="正在加载中..."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"/>
+
+            <!-- 顶部panel-->
+            <RelativeLayout
+                android:id="@+id/ll_top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:background="#000000"
+                android:orientation="horizontal"
+                android:visibility="gone"
+               >
+
+               <TextView
+                   android:id="@+id/tv_systime"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_centerInParent="true"
+                   android:text="系统时间"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20sp"/>
+
+            </RelativeLayout>
+
+
+            <!-- 底部panel-->
+            <LinearLayout
+                android:id="@+id/ll_bottom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="#000000"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:src="@mipmap/play"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_margin="@dimen/marginSize">
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="22dp"
+                android:background="@color/registerColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主播往期"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/titleSize"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/marginTabSize" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3C3F41">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#D9D9D9"
+            android:hint="评论相关，还未开发"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

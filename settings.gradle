@@ -1,0 +1,2 @@
+include ':library', ':appupdate', ':mlicxtest', ':app', ':mlicxapp'
+rootProject.name='LiveTest'

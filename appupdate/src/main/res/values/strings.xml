@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppUpdate</string>
+    <string name="btn_update">版本更新</string>
+</resources>
